@@ -1,7 +1,3 @@
-name=raw_input()
-name1="i"
-name2="love"
-name3="c++"
-print(name1.capitalize() 
-       +name2.capitalize() 
-       +name3.capitalize())
+str=raw_input()
+cap=str.title()
+print cap
