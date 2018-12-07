@@ -1,2 +1,2 @@
-n=int(raw_input())
-print(n*2)
+p=int(raw_input())
+print(p*2)
