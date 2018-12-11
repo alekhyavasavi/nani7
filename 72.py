@@ -1,6 +1,6 @@
-ch=raw_input()
-vowles=set('aeiou')
-if not vowles.isdisjoint('bbatb'):
+s=raw_input()
+vow=set('aeiou')
+if not vow.isdisjoint(s):
     print 'yes'
 else:
     print 'no'
