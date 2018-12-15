@@ -1,19 +1,19 @@
 import sys
 def getl():
-	l=[]
+	v=[]
 	r=[]
 	while(True):
 		try:
 			a,b = map(int,sys.stdin.readline().split())
 		except ValueError:
 			break
-		l.append(a)
-		l.append(b)
-		r.append(l)
-		l=[]
+		v.append(a)
+		v.append(b)
+		v.append(l)
+		v=[]
 	for i in r:
 		print(i[1]-i[0])
 try:
-	getl()
+	getv()
 except:
 	print('invalid')
