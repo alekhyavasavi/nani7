@@ -1,5 +1,5 @@
-n=int(raw_input())
-m=n+1
+s=int(raw_input())
+m=s+1
 while(m!=0):
     if m%10==0:
         print m
